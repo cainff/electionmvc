@@ -1,0 +1,165 @@
+
+.dis {
+    display:none;
+}
+
+
+.submitclass {
+    display: block;
+    border: 1px solid #fdfdfd;
+    background-color: #fdfdfd;
+    height: 50px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    box-shadow: 0px 1px 1px 0px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.inputclass {
+    display: block;
+    border: 1px solid #fdfdfd;
+    background-color: #fdfdfd;
+    height: 25px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    box-shadow: 0px 1px 1px 0px;
+    text-align: center;
+    margin-top: 21px;
+    left: 601px;
+    position: relative;
+}
+
+.create {
+    display: block;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 604px;
+}
+
+#createvotant {
+    padding-top:3px;
+}
+
+
+#candidatslist {
+    float: right; */
+    display: inline;
+    left: 585px;
+    /* top: -45px; */
+    position: absolute;
+    -webkit-transition: 2s all;
+}
+
+li {
+    /* border-bottom: 2px solid red; */
+    border-top: 2px solid #50657a;
+    /* margin-bottom: 20px; */
+    padding: 9px;
+    list-style: none;
+    text-align: center;
+    -webkit-transition: 0.4s all;
+}
+
+li:hover {
+    -webkit-transform: translate(10px, 5px); /* Safari */
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.wrap {
+    width: 99%;
+    margin:0 auto;
+    background: white;
+}
+
+#bloc1 {
+    background-color: #50657a;
+    width: 100%;
+    height: 230px;
+}
+
+#bloc2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 230px;
+}
+
+#bloc3 {
+    background-color: #50657a;
+    width: 100%;
+    height: 230px;
+}
+
+
+#bloc4 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 230px;
+}
+
+#bloc5 {
+    background-color: #50657a;
+    width: 100%;
+    height: 280px;
+}
+
+.nav {
+    height: 20%;
+    width: 24%;
+    padding: 25px;
+    border-bottom: 2px dashed white;
+    /* padding-left: 20px; */
+    margin: 0 auto;
+}
+
+#result {
+    display: block;
+    height: 35px;
+    margin-top: 19px;
+    margin-left: 604px;
+    position: relative;
+    top: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    background-color: blue;
+    margin:0 auto;
+    width: 99%;
+}
+
+.white {
+    background-color:white;
+    margin:0 auto;
+    width: 99%;
+}
+
+
+.red {
+    background-color: red;
+    margin:0 auto;
+    width: 100%;
+}
+
+#result_list {
+    color: white;
+    font-family: 'roboto','sans-serif';
+    margin-left:-20px;
+}
+
+
+

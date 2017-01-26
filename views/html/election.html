@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="/css/election.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+</head> 
+<body>
+
+<div class="red">
+<div class="white">
+<div class="blue">
+ 
+ <div class="wrap">
+  <div id="bloc1">
+      <div class="nav">
+              <h1>Election</h1>
+      </div>
+  </div>
+  
+  <div id="bloc2">
+      <button class="submitclass create" id="candidat">Voir les Candidats</button>
+    
+    <ul id="candidatslist"></ul>
+    
+  </div>
+  
+  <div id="bloc3">
+      <form class="dis" id="createvotant">
+            <input class="inputclass" type="text" id="firstname" name="firstname" placeholder="Entrez votre nom"/>  
+            
+            <input class="inputclass" type="text" id="lastname" name="lastname" placeholder="Entrez votre prenom"/>  
+            
+            <input class="inputclass" type="text" id="age" name="age" placeholder="Entrez votre âge"/>
+            
+            <input id="c_votant" class="submitclass create" type="submit" value="Create">
+        
+    </form>   
+  </div>
+  
+  
+  <div id="bloc4">
+      <form id="createvote" class="dis">
+            
+            <input type="text" class="inputclass" id="votant_" name="voters" placeholder="ID_votant"/>  
+            
+            <input type="text" class="inputclass" id="candidat_" name="candidate" placeholder="ID_candidat"/>  
+            
+            
+            
+            <input id="c_vote" class="submitclass create" type="submit" value="Create">    
+        
+</form>   
+
+ 
+  </div>
+   
+<div id="bloc5">
+ 
+  <button class="submitclass dis" id="result">Voir les résultats</button>
+    <ul id="result_list"></ul>
+      </div>    
+
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    
+
+              
+  
+   
+   
+   
+    
+    
+
+    
+    <script src="/js/election.js"></script>
+    
+  
+</body>
+</html>
